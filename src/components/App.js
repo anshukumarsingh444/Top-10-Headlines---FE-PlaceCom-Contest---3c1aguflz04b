@@ -6,7 +6,7 @@ const App = () => {
   const [newsData, setNewsData] = useState([]);
   const [loading, setLoading] = useState(true);
  const API_KEY="";
-
+   
  const changeFunction=(e)=>
  {
   setCategory(e.target.value);
